@@ -8,8 +8,6 @@ namespace Task_API.ManualClasses
         [MinLength(10, ErrorMessage = "AName must be at least 10 character long")]
         public string? TTitle { get; set; }
 
-        public string? error_code { get, set}
-
         [Required(ErrorMessage = "Description is Required")]
         [MinLength(10, ErrorMessage = "AName must be at least 100 character long")]
         public string? TDescription { get; set; }
